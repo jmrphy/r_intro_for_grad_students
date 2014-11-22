@@ -15,7 +15,7 @@ This document demonstrates how to perform several routine tasks in the analysis 
 This document downloads from the web two widely used data sources (the World Bank's World Development Indicators and the Polity IV measure of democracy), merges them, cleans and transforms some variables, visualizes several variables in commonly recurring types of graphs, runs simple models, and generates automatically formatted tables.
 
 
-## Download packages (unless you already have them!)
+## Download packages
 ```{r, warning=FALSE, message=FALSE, error=FALSE, cache=FALSE, eval=FALSE}
 install.packages("WDI")
 install.packages("countrycode")
