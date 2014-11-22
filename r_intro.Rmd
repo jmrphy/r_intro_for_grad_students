@@ -3,11 +3,14 @@ title: Intro to Analyzing Cross-Sectional Time-Series Data in R (for Students of
   & Comparative Politics)
 author: "Justin Murphy"
 date: "November 21, 2014"
-output: html_document
-theme: null
+output: pdf_document
+toc: true
 ---
 
-This document demonstrates how to perform several routine tasks in the analysis of state-level economic and political data for multiple countries over time, using the programming language R. It is aimed toward first-year graduate students with little or no experience with R. The .Rmd file which generated this document may prove especially useful as a template from which students may wish to get started. All one needs to do is download and install R, RStudio, and LaTex, open this .Rmd file in Rstudio, and modify/extend the examples already coded here.
+\pagebreak
+
+## Overview
+This document demonstrates how to perform several routine tasks in the analysis of state-level economic and political data for multiple countries over time, using the programming language R. It is aimed toward first-year graduate students with little or no experience with R. [The .Rmd file which generated this document](https://raw.githubusercontent.com/jmrphy/r_intro_for_grad_students/master/r_intro.Rmd) may prove especially useful as a template from which students may wish to get started. All one needs to do is download and install R, RStudio, and LaTex, open this .Rmd file in Rstudio, and modify/extend the examples already coded here.
 
 This document downloads from the web two widely used data sources (the World Bank's World Development Indicators and the Polity IV measure of democracy), merges them, cleans and transforms some variables, visualizes several variables in commonly recurring types of graphs, runs simple models, and generates automatically formatted tables.
 
